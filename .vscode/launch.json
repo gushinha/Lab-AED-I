@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "C/C++ Runner: Debug Session",
+      "type": "lldb",
+      "request": "launch",
+      "args": [],
+      "cwd": "/Users/joaoaugusto/Documents/Repositórios- GitHub/Lab-AED-I",
+      "program": "/Users/joaoaugusto/Documents/Repositórios- GitHub/Lab-AED-I/build/Debug/outDebug"
+    }
+  ]
+}
