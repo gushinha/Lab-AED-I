@@ -4,20 +4,19 @@
 //
 //  Created by João Augusto Batsta Pereira on 03/09/24.
 //
-main()
-{
 #include <stdio.h>
 #include <locale.h>
+main()
+{
+    int ano, idade;
+    setlocale(LC_ALL, "Portuguese");
 
-int ano, idade;
-setlocale(LC_ALL, "Portuguese");
+    printf("Digite o ano em que você nasceu:");
+    scanf("%d",& ano);
 
-printf("Digite o ano em que você nasceu:");
-scanf("%d",& ano);
+    idade = 2024 - ano;
 
-idade = 2024 - ano;
-
-printf("Você tem %d anos.",idade);
+    printf("Você tem %d anos.",idade);
 }
 
 
